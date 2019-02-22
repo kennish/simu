@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" />
+    <script type="text/javascript">
+      window.HB = {};
+      HB.global = {};
+      HB.env = "demo";
+    </script>
+    <script type="text/javascript">
+      // 校验完交易密码后调用保存js,该方法放入js文件中有可能原生调用不到
+      function checkTradePassword() {
+        window.localStorage.setItem('verificationSuccess', '1');
+      }
+    </script>
+    <script type="text/javascript" src="https://static.dev.hbec.com/hbec/common/vendor/??jquery-2.1.4.min.js,jquery.cookie.min.js,require-2.1.20.min.js"></script>
+    <script type="text/javascript" src="https://static.dev.hbec.com/hbec/common/h5/1.0.0/js/hbec.min.js"></script>
+    <title>私募基金</title>
+  </head>
+  <body>
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+  </body>
+</html>
